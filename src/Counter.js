@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function Counter() {
 
-    const[count, setCount] = useState();
+    const[count, setCount] = useState(10);
 
     function handleInitialCountChange(e) {
         setCount(Number(e.target.value));
